@@ -1,4 +1,33 @@
 
+#System Monitoring Dashboard
+#Overview
+This repository contains a Bash script designed to monitor various system resources and present them in a dashboard format. The script refreshes the data every few seconds, providing real-time insights into the system's performance. Additionally, users can call specific parts of the dashboard individually using command-line switches for focused monitoring.
+
+##Features
+1. Top 10 Most Used Applications
+Displays the top 10 applications consuming the most CPU and memory resources.
+2. Network Monitoring
+Shows the number of concurrent connections to the server.
+Displays the number of packet drops.
+Provides network usage in terms of MB in and out.
+3. Disk Usage
+Monitors disk space usage by mounted partitions.
+Highlights partitions that are using more than 80% of their capacity.
+4. System Load
+Shows the current load average for the system.
+Includes a detailed breakdown of CPU usage (user, system, idle, etc.).
+5. Memory Usage
+Displays total, used, and free memory.
+Provides information on swap memory usage.
+6. Process Monitoring
+Shows the number of active processes.
+Lists the top 5 processes in terms of CPU and memory usage.
+7. Service Monitoring
+Monitors the status of essential services like sshd, nginx/apache, iptables, and more.
+8. Custom Dashboard
+Allows users to view specific parts of the dashboard using command-line switches, e.g., -cpu, -memory, -network, etc.
+
+
 
 ## STEP 1 : Setting up environment 
 - Open amazon console , create a EC2 instance (**proxy-server-manthan**),connect it
