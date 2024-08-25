@@ -1,9 +1,9 @@
 
-#System Monitoring Dashboard
-#Overview
+# System Monitoring Dashboard
+# Overview
 This repository contains a Bash script designed to monitor various system resources and present them in a dashboard format. The script refreshes the data every few seconds, providing real-time insights into the system's performance. Additionally, users can call specific parts of the dashboard individually using command-line switches for focused monitoring.
 
-##Features
+## Features
 1. Top 10 Most Used Applications
 Displays the top 10 applications consuming the most CPU and memory resources.
 2. Network Monitoring
